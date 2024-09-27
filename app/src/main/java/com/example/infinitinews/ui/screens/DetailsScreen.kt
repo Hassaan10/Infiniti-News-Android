@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material.icons.Icons
@@ -19,6 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
+import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.example.infinitinews.data.model.Article
 
@@ -41,6 +43,7 @@ fun DetailsScreen(article: Article, navigateToBack: (() -> Unit)) {
             }
         }
         Text(
+            modifier = Modifier.padding(horizontal = 5.dp),
             text = article.title,
             style = TextStyle(
                 color = Color.Red,
@@ -50,6 +53,7 @@ fun DetailsScreen(article: Article, navigateToBack: (() -> Unit)) {
             )
         )
         Text(
+            modifier = Modifier.padding(horizontal = 5.dp),
             text = article.description,
             style = TextStyle(
                 color = Color.DarkGray,
@@ -59,6 +63,7 @@ fun DetailsScreen(article: Article, navigateToBack: (() -> Unit)) {
             )
         )
         Text(
+            modifier = Modifier.padding(horizontal = 5.dp),
             text = article.content,
             style = TextStyle(
                 color = Color.DarkGray,

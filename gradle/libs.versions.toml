@@ -13,7 +13,6 @@ navigationCompose = "2.8.1"
 hilt = "2.51.1"
 okhttp = "4.12.0"
 hiltNavigation = "1.2.0"
-materialCompose = "1.3.0"
 coil = "2.7.0"
 serialization = "1.6.0"
 
@@ -40,7 +39,6 @@ android-hilt-kapt = { group = "com.google.dagger", name = "hilt-compiler",versio
 okhttp-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor",version.ref = "okhttp" }
 androidx-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
 hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigation" }
-material-compose = { group = "androidx.compose.material", name = "material3", version.ref = "materialCompose"  }
 coil-ktx = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil"}
 kotlin-serialization = {group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization" }
 
