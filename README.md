@@ -7,8 +7,8 @@ News app made in Jetpack Compose with clean architecture using using MVI. This a
 - All News
 - News Detail
 
-
-
+### GIF
+<img src="https://github.com/user-attachments/assets/823530bb-d17f-4ed5-831c-6edc4dd7a8a3" width="250" height="500"/>
 
 
 ## Screenshots
