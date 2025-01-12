@@ -34,7 +34,7 @@ This app follows **Clean Architecture**, which divides the app into layers:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/news-app.git
+   git clone https://github.com/Hassaan10/Infiniti-News-Android.git
 
 2. Open the project in Android Studio.
 3. Sync the project with Gradle files.
